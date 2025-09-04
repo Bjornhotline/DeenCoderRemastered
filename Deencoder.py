@@ -32,7 +32,7 @@ dash =  '-'
 
 tts = True
 
-#there is some sort of warning regarding this when starting the software, does not really matter tho would still like to fix
+
 file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bin\\settings.txt")
 file_path2 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bin\\mem.txt")
 
@@ -48,7 +48,7 @@ with open(file_path, 'r') as settings:
       tts = True
    if content.strip().lower() == 'tts/off':
       tts = False
-#saves to mem file, this appears multiple times mainly just for the hell of it
+#saves to mem file
 with open(file_path2, 'a+') as mem:
          mem.writelines(f"""
                         File opened at {now}
@@ -95,8 +95,7 @@ def english_to_morse(message):
         if char in ENGLISH_TO_MORSE:
             morse.append(ENGLISH_TO_MORSE[char]) 
     return " / ".join(morse)
-#will have to change this sometime so words are properly formed-
-#but that might have to be how the user types the code 
+
 def morse_to_englishtxt(message):
     message = message.split(" ")
     english = []  
@@ -215,7 +214,7 @@ def main():
          exit()
     
         elif response == "3":
-         #might change this to just read a txt file
+   
          print(Fore.GREEN + '')
          print("""A	.-	B	-...
 C	-.-.	D	-..
@@ -256,7 +255,7 @@ Y	-.--	Z	--..
              print(Fore.RED + "")
              print(memcontent, "clrmem to clear file contents")
              print(Fore.WHITE + "")
-        #or just check the fucking note file
+        
         elif response.lower() == 'help':
            print(Fore.RED+'')
            print("""
@@ -275,4 +274,5 @@ Y	-.--	Z	--..
 
 
 if __name__ == "__main__":
+
     main()
