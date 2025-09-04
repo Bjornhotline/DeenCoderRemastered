@@ -1,0 +1,12 @@
+HELP:
+To turn off the text to speech option goto "settings.txt" and switch txt/on with txt/off. 
+To clear the terimal enter "res" or "reset".
+Check the "mem.txt" file to see all past translations, to clear this file enter clrmem. you can also enter- 
+listmem to veiw the contents.
+Enter help for list of cmds.
+When entering morse code you can use your mouse, right click is . left is a - and your middle is a space.-
+to disable this go to settings and change mouse/on to mouse/off
+CREDITS:
+Developed by username8bit on github
+DeenCoderRemastered Github - https://github.com/Bjornhotline/DeenCoderRemastered
+email the creator @- deencodergit@gmail.com 
