@@ -1,3 +1,5 @@
+Ver 0.0.4: user can control dots and dashes with mouse when inputting for morse to english, translations will be saved in mem.txt, settings file to turn on/off tts and mouse mouse, simple html page to download latest release, morse code can be played like the tts option. I might have missed some stuff so check note.txt for any help.
+|
 Ver 0.0.3: morse code is now split by /.
 |
 Ver 0.0.2: added a thingy that will say !Error in translation! when the translation is blank.
