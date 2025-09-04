@@ -1,4 +1,1 @@
-Packages: pyttsx3 | colorama
-How to install packages?
-Step one: Open cmd (you can open cmd by pressing the windows key on your keyboard and typing cmd)
-Step two: Type: pip install pyttsx3 once its done installing do the same with colorama.
+Packages: pip: pyttsx3, colorama, keyboard, and mouse.
