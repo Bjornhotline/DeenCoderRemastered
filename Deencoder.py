@@ -39,7 +39,7 @@ file_path2 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bin\\mem.
 oname = platform.system()
 
 now = datetime.datetime.now()
-#checks if user is using windows/checks settings folder, this is so fast the user will not notice
+
 print('checking system requirements... ')
 playdot()
 with open(file_path, 'r') as settings:
@@ -276,3 +276,4 @@ Y	-.--	Z	--..
 if __name__ == "__main__":
 
     main()
+
