@@ -1,0 +1,43 @@
+<html>
+    <head> 
+     <a id="myDownloadLink" href="https://github.com/Bjornhotline/DeenCoderRemastered/releases/tag/v0.0.4remastered"> </a>
+     <script>
+      function getFilenameFromUrl(url) {
+      const urlObject = new URL(url);
+      const pathname = urlObject.pathname;
+      return pathname.split('/').pop();
+}
+      const downloadLink = document.getElementById('myDownloadLink');
+      const fileUrl = downloadLink.href;
+      const filename = getFilenameFromUrl(fileUrl);
+
+
+     </script>
+        <style>
+           p {
+          color: green;
+          font-family: "Courier New";
+          font-size: xx-large;
+           }  
+            body {
+          background-color: black;
+           }
+           b {
+            color:green;
+            font-family: 'Courier New';
+            font-size: small;
+           }
+        </style>
+    </head>
+    <body>
+      <h1>
+        <p>Deencoder</p>
+        <script>document.body.innerHTML += `<b>Your Current Ver: <strong>${filename}</strong></b>`;</script>
+      </h1>
+      <b>
+      </ul>
+       <li><a href ="https://github.com/Bjornhotline/DeenCoderRemastered/releases/latest" download>Download possible new release</a></li>
+      </ul>
+      <b>
+    </body>
+</html>
